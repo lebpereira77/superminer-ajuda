@@ -51,7 +51,7 @@ const config = {
             label: 'Central de Ajuda',
           },
           {
-            href: 'https://superminer.com.br/v2',
+            href: 'https://super-miner.vercel.app/login',
             label: 'Acessar o Super Miner',
             position: 'right',
           },
@@ -71,7 +71,7 @@ const config = {
           {
             title: 'Super Miner',
             items: [
-              { label: 'Acessar a plataforma', href: 'https://superminer.com.br/v2' },
+              { label: 'Acessar a plataforma', href: 'https://super-miner.vercel.app/login' },
               { label: 'Suporte via WhatsApp', href: 'https://wa.me/5512988968626' },
             ],
           },
