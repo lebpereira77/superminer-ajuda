@@ -1,5 +1,4 @@
 // @ts-check
-const { themes: prismThemes } = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -10,10 +9,7 @@ const config = {
   url: 'https://ajuda.superminer.com.br',
   baseUrl: '/',
 
-  organizationName: 'lebpereira77',
-  projectName: 'superminer-ajuda',
-
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -27,13 +23,12 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           routeBasePath: '/',
-          showLastUpdateTime: false,
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: './src/css/custom.css',
         },
       }),
     ],
@@ -77,16 +72,12 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Super Miner. Todos os direitos reservados.`,
+        copyright: 'Super Miner. Todos os direitos reservados.',
       },
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
         respectPrefersColorScheme: true,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
       },
     }),
 };
