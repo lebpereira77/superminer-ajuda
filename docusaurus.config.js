@@ -75,7 +75,7 @@ const config = {
         copyright: 'Super Miner. Todos os direitos reservados.',
       },
       colorMode: {
-        defaultMode: 'dark',
+        defaultMode: 'light',
         disableSwitch: false,
         respectPrefersColorScheme: true,
       },

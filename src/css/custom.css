@@ -1,89 +1,148 @@
 /**
  * Super Miner — Central de Ajuda
- * Custom Docusaurus theme
+ * Paleta alinhada ao frontend: laranja #ff9900, fundo branco
  */
 
+/* ── Variáveis de cor (modo claro — padrão) ── */
 :root {
-  --ifm-color-primary: #6366f1;
-  --ifm-color-primary-dark: #4f52ef;
-  --ifm-color-primary-darker: #4346ee;
-  --ifm-color-primary-darkest: #2225e9;
-  --ifm-color-primary-light: #777af3;
-  --ifm-color-primary-lighter: #8385f4;
-  --ifm-color-primary-lightest: #a8aaf7;
+  --ifm-color-primary: #ff9900;
+  --ifm-color-primary-dark: #e07200;
+  --ifm-color-primary-darker: #b85500;
+  --ifm-color-primary-darkest: #934400;
+  --ifm-color-primary-light: #ffa328;
+  --ifm-color-primary-lighter: #ffbe66;
+  --ifm-color-primary-lightest: #ffd9a3;
 
-  --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f8f9fb;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #0f1923;
+
+  --ifm-font-size-base: 16px;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
   --ifm-heading-font-weight: 600;
-  --ifm-navbar-height: 60px;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-font-size: 92%;
+
+  --ifm-navbar-shadow: 0 1px 0 0 #e8ecf0;
+  --ifm-toc-border-color: #e8ecf0;
+  --ifm-color-emphasis-300: #e8ecf0;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 153, 0, 0.08);
 }
 
+/* ── Modo escuro (opcional, respeita preferência do SO) ── */
 [data-theme='dark'] {
-  --ifm-color-primary: #818cf8;
-  --ifm-color-primary-dark: #6b76f6;
-  --ifm-color-primary-darker: #606bf5;
-  --ifm-color-primary-darkest: #3a46f2;
-  --ifm-color-primary-light: #97a0fa;
-  --ifm-color-primary-lighter: #a2abfb;
-  --ifm-color-primary-lightest: #c4c9fd;
+  --ifm-color-primary: #ffa328;
+  --ifm-color-primary-dark: #ff9900;
+  --ifm-color-primary-darker: #e07200;
+  --ifm-color-primary-darkest: #b85500;
+  --ifm-color-primary-light: #ffbe66;
+  --ifm-color-primary-lighter: #ffd9a3;
+  --ifm-color-primary-lightest: #fff8ee;
 
-  --ifm-background-color: #0f0f14;
-  --ifm-background-surface-color: #16161e;
-  --ifm-navbar-background-color: #13131a;
-  --ifm-footer-background-color: #0a0a0f;
-  --ifm-toc-border-color: #2a2a3a;
-  --ifm-color-emphasis-300: #3a3a4a;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-background-color: #0f1923;
+  --ifm-background-surface-color: #1a2535;
+  --ifm-navbar-background-color: #0f1923;
+  --ifm-toc-border-color: #2e4057;
+  --ifm-color-emphasis-300: #2e4057;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 153, 0, 0.12);
 }
 
-/* Navbar */
+/* ── Navbar ── */
 .navbar {
-  border-bottom: 1px solid var(--ifm-toc-border-color);
-  box-shadow: none;
+  box-shadow: var(--ifm-navbar-shadow);
 }
 
 .navbar__title {
   font-weight: 700;
-  font-size: 1.1rem;
-  background: linear-gradient(135deg, #818cf8, #c084fc);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  font-size: 1.05rem;
+  color: #0f1923;
 }
 
-/* Sidebar */
-.menu__link--active {
+[data-theme='dark'] .navbar__title {
+  color: #f0f2f5;
+}
+
+/* Destaque laranja no link ativo da navbar */
+.navbar__link--active {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* ── Sidebar ── */
+.menu__link--active:not(.menu__link--sublist) {
+  background-color: #fff8ee;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(255, 153, 0, 0.1);
+}
+
+/* ── Títulos ── */
+.markdown h1:first-child {
+  font-size: 1.9rem;
+}
+
+.markdown h2 {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  padding-bottom: 0.35rem;
+}
+
+/* ── Tabelas ── */
+table th {
+  background-color: var(--ifm-background-surface-color);
   font-weight: 600;
 }
 
-/* Doc content */
-.markdown h1:first-child {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+/* ── Admonitions ── */
+.alert--tip {
+  --ifm-alert-border-color: #ff9900;
+  background-color: #fff8ee;
 }
 
-/* Admonition customizations */
-.admonition-content p:last-child {
-  margin-bottom: 0;
+[data-theme='dark'] .alert--tip {
+  background-color: rgba(255, 153, 0, 0.08);
 }
 
-/* Footer */
+/* ── Rodapé ── */
 .footer {
-  border-top: 1px solid var(--ifm-toc-border-color);
+  background-color: #0f1923;
 }
 
-/* Tables */
-table {
-  display: table;
-  width: 100%;
+.footer__title {
+  color: #f0f2f5;
 }
 
-th {
+/* ── Botões (ex: "Acessar o Super Miner") ── */
+.navbar__item.navbar__link:last-child {
+  background-color: #ff9900;
+  color: #ffffff !important;
+  border-radius: 6px;
+  padding: 6px 14px;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.navbar__item.navbar__link:last-child:hover {
+  background-color: #e07200;
+  text-decoration: none;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
   background: var(--ifm-background-surface-color);
 }
-
-/* Card-like callouts */
-.theme-admonition {
-  border-radius: 8px;
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
 }
