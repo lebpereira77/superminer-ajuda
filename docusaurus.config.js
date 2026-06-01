@@ -4,7 +4,7 @@
 const config = {
   title: 'Super Miner — Central de Ajuda',
   tagline: 'Encontre produtos lucrativos na Amazon com inteligência artificial',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   url: 'https://ajuda.superminer.com.br',
   baseUrl: '/',
@@ -38,7 +38,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Super Miner',
+        title: '',
+        logo: {
+          alt: 'Super Miner',
+          src: 'img/logo.png',
+        },
         items: [
           {
             type: 'docSidebar',

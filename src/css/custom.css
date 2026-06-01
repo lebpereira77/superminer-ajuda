@@ -54,6 +54,11 @@
   box-shadow: var(--ifm-navbar-shadow);
 }
 
+.navbar__logo {
+  height: 32px;
+  width: auto;
+}
+
 .navbar__title {
   font-weight: 700;
   font-size: 1.05rem;
