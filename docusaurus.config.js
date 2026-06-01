@@ -24,13 +24,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          routeBasePath: '/',
-          versions: {
-            current: {
-              label: 'atual',
-              banner: 'none',
-            },
-          },
+          routeBasePath: '/docs',
         },
         blog: false,
         theme: {
@@ -65,9 +59,9 @@ const config = {
           {
             title: 'Ajuda',
             items: [
-              { label: 'Primeiros Passos', to: '/primeiros-passos/criando-conta' },
-              { label: 'Como Minerar', to: '/mineracao/como-funciona' },
-              { label: 'Perguntas Frequentes', to: '/faq' },
+              { label: 'Primeiros Passos', to: '/docs/primeiros-passos/criando-conta' },
+              { label: 'Como Minerar', to: '/docs/mineracao/como-funciona' },
+              { label: 'Perguntas Frequentes', to: '/docs/faq' },
             ],
           },
           {

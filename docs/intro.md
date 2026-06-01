@@ -1,6 +1,5 @@
 ---
 id: intro
-slug: /
 title: Bem-vindo à Central de Ajuda
 sidebar_position: 1
 ---
