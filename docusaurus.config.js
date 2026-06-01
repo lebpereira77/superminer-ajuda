@@ -25,6 +25,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           routeBasePath: '/',
+          versions: {
+            current: {
+              label: 'atual',
+              banner: 'none',
+            },
+          },
         },
         blog: false,
         theme: {
