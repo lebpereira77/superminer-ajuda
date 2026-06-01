@@ -1,0 +1,89 @@
+/**
+ * Super Miner — Central de Ajuda
+ * Custom Docusaurus theme
+ */
+
+:root {
+  --ifm-color-primary: #6366f1;
+  --ifm-color-primary-dark: #4f52ef;
+  --ifm-color-primary-darker: #4346ee;
+  --ifm-color-primary-darkest: #2225e9;
+  --ifm-color-primary-light: #777af3;
+  --ifm-color-primary-lighter: #8385f4;
+  --ifm-color-primary-lightest: #a8aaf7;
+
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-navbar-height: 60px;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #818cf8;
+  --ifm-color-primary-dark: #6b76f6;
+  --ifm-color-primary-darker: #606bf5;
+  --ifm-color-primary-darkest: #3a46f2;
+  --ifm-color-primary-light: #97a0fa;
+  --ifm-color-primary-lighter: #a2abfb;
+  --ifm-color-primary-lightest: #c4c9fd;
+
+  --ifm-background-color: #0f0f14;
+  --ifm-background-surface-color: #16161e;
+  --ifm-navbar-background-color: #13131a;
+  --ifm-footer-background-color: #0a0a0f;
+  --ifm-toc-border-color: #2a2a3a;
+  --ifm-color-emphasis-300: #3a3a4a;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar */
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none;
+}
+
+.navbar__title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  background: linear-gradient(135deg, #818cf8, #c084fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Sidebar */
+.menu__link--active {
+  font-weight: 600;
+}
+
+/* Doc content */
+.markdown h1:first-child {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Admonition customizations */
+.admonition-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer */
+.footer {
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Tables */
+table {
+  display: table;
+  width: 100%;
+}
+
+th {
+  background: var(--ifm-background-surface-color);
+}
+
+/* Card-like callouts */
+.theme-admonition {
+  border-radius: 8px;
+}

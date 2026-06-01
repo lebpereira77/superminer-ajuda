@@ -1,0 +1,8 @@
+{
+  "label": "Filtro Amazon",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Pesquise e descubra produtos diretamente no banco de dados da Amazon Brasil."
+  }
+}
