@@ -10,7 +10,6 @@ const sidebars = {
       collapsed: false,
       items: [
         'primeiros-passos/criando-conta',
-        'primeiros-passos/configuracao-inicial',
         'primeiros-passos/painel-principal',
       ],
     },
