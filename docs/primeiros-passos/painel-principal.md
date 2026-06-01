@@ -37,7 +37,7 @@ O menu à esquerda dá acesso a todas as seções da plataforma:
 - **Painel** — Tela inicial com resumo
 - **Fornecedores** — Gerencie seus fornecedores e catálogos
 - **Nova Mineração** — Inicie uma nova sessão de análise
-- **Filtro Amazon** — Pesquise produtos diretamente no banco da Amazon
+- **Super Filter** — Pesquise produtos diretamente no banco da Amazon
 - **Configurações** — Ajuste seus critérios e custos
 
 ## Status das integrações

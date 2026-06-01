@@ -90,13 +90,13 @@ Na tela de Resultados, clique em **Exportar** e escolha entre Excel ou PDF. Para
 
 ---
 
-## Filtro Amazon
+## Super Filter
 
-### Qual a diferença entre o Filtro Amazon e a mineração?
+### Qual a diferença entre o Super Filter e a mineração?
 
-A mineração parte do catálogo do fornecedor e busca os produtos equivalentes na Amazon. O Filtro Amazon faz o inverso: você define características (preço, demanda, concorrência) e o sistema mostra produtos da Amazon que se encaixam. São ferramentas complementares.
+A mineração parte do catálogo do fornecedor e busca os produtos equivalentes na Amazon. O Super Filter faz o inverso: você define características (preço, demanda, concorrência) e o sistema mostra produtos da Amazon que se encaixam. São ferramentas complementares.
 
-### O banco de dados do Filtro Amazon é em tempo real?
+### O banco de dados do Super Filter é em tempo real?
 
 Não exatamente. O banco é atualizado com frequência, mas não é tempo real. Para dados muito recentes de um produto específico, verifique diretamente na Amazon.
 

@@ -36,7 +36,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '🔍 Filtro Amazon',
+      label: '🔍 Super Filter',
       collapsed: false,
       items: [
         'filtro-amazon/usando-filtro',

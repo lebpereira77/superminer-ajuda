@@ -18,7 +18,7 @@ Esta central cobre tudo que você precisa para usar a plataforma com confiança:
 | [Primeiros Passos](./primeiros-passos/criando-conta) | Como criar sua conta e configurar o sistema pela primeira vez |
 | [Fornecedores e Catálogos](./fornecedores/cadastrando-fornecedor) | Como cadastrar fornecedores e importar listas de produtos |
 | [Mineração de Produtos](./mineracao/como-funciona) | Como funciona o processo de análise e como interpretar os resultados |
-| [Filtro Amazon](./filtro-amazon/usando-filtro) | Como pesquisar produtos diretamente no banco de dados da Amazon |
+| [Super Filter](./filtro-amazon/usando-filtro) | Como pesquisar produtos diretamente no banco de dados da Amazon |
 | [Configurações](./configuracoes/custos-criterios) | Como ajustar os critérios de aprovação para o seu negócio |
 | [Perguntas Frequentes](./faq) | Respostas para as dúvidas mais comuns |
 

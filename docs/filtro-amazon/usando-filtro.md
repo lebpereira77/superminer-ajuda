@@ -1,16 +1,16 @@
 ---
 id: usando-filtro
-title: Usando o Filtro Amazon
+title: Usando o Super Filter
 sidebar_position: 1
 ---
 
-# Filtro Amazon
+# Super Filter
 
-O Filtro Amazon é uma ferramenta de pesquisa avançada que permite explorar o banco de dados da Amazon Brasil com filtros precisos. Use-o para descobrir oportunidades por conta própria, sem precisar de um catálogo de fornecedor.
+O Super Filter é uma ferramenta de pesquisa avançada que permite explorar o banco de dados da Amazon Brasil com filtros precisos. Use-o para descobrir oportunidades por conta própria, sem precisar de um catálogo de fornecedor.
 
 ## Para que serve
 
-Enquanto a mineração parte do catálogo do fornecedor e vai para a Amazon, o Filtro Amazon faz o caminho inverso: você define as características do produto que quer encontrar e o sistema retorna os produtos da Amazon que se encaixam.
+Enquanto a mineração parte do catálogo do fornecedor e vai para a Amazon, o Super Filter faz o caminho inverso: você define as características do produto que quer encontrar e o sistema retorna os produtos da Amazon que se encaixam.
 
 **Casos de uso comuns:**
 - Encontrar produtos em uma categoria específica com boa demanda e pouca concorrência
@@ -41,7 +41,7 @@ Enquanto a mineração parte do catálogo do fornecedor e vai para a Amazon, o F
 
 ## Como usar
 
-1. Acesse **Filtro Amazon** no menu lateral
+1. Acesse **Super Filter** no menu lateral
 2. Configure os filtros desejados
 3. Clique em **Buscar**
 4. Os resultados aparecem na tabela abaixo
@@ -66,7 +66,7 @@ Clique em **Exportar** para baixar os resultados filtrados em Excel — útil pa
 
 Uma estratégia eficaz é:
 
-1. Usar o Filtro Amazon para identificar categorias e produtos com boa demanda
+1. Usar o Super Filter para identificar categorias e produtos com boa demanda
 2. Levar essa lista para a reunião com fornecedores — busque especificamente os produtos com demanda comprovada
 3. Após fechar, importe o catálogo e mine para confirmar a margem
 
